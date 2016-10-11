@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, system, sans-serif;
+}
+body{
+  background-image: linear-gradient(to top, #333, #eee);
+
+  & #app{
+    background: green;
+  }
+  a {
+    color: blue;
+  }
+}
+
+#content {
+  width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  font-size: 5em;
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+a {
+  color: #3f894a;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+a:hover {
+  color: #27552e;
+  border-bottom: 1px solid #27552e;
+}
