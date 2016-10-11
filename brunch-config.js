@@ -21,5 +21,9 @@ module.exports = {
       allowCache: true,
       modules: true
     }
+  },
+
+  server: {
+    port: 6832
   }
 };
